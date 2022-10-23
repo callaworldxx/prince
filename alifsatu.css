@@ -1,0 +1,23 @@
+h1 {
+	font-size:5em;
+	color: white;
+	text-align: center;
+}
+@media screen and (orientation: landscape)
+{
+	body{
+		background-color: skyblue;
+		background-image: url(alif.jpeg);
+	h1{
+		text-transform: uppercase;
+	}
+}
+@media screen and (orientation: portrait)
+{
+	body{
+		background-color: coral;
+		background-image: url(alif.jpeg);
+	}
+	h1{
+		text-transform: lowercase;
+}
